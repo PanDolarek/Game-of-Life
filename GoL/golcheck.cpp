@@ -8,7 +8,7 @@ void golCheck(int **xy, int **dxy)
     {
         for (int j = 0; j < m; j++)
         {
-            int ngh = 0; // alive neighbors
+            int ngh = 0; 
             for (int checki = -1; checki <= 1; checki++)
             {
                 for (int checkj = -1; checkj <= 1; checkj++)
